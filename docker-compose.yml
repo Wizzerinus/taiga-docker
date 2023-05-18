@@ -29,6 +29,7 @@ x-environment:
   ENABLE_TELEMETRY: "${ENABLE_TELEMETRY}"
   # ...your customizations go here
   PUBLIC_REGISTER_ENABLED: "${PUBLIC_REGISTER_ENABLED}"
+  HIDDEN_USERS_ENABLED: "${HIDDEN_USERS_ENABLED}"
 
 x-volumes:
   &default-back-volumes
