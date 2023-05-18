@@ -55,7 +55,9 @@ services:
       - taiga
 
   taiga-back:
-    image: taigaio/taiga-back:latest
+    build:
+      context: ../taiga-back
+      dockerfile: ./docker/Dockerfile
     environment: *default-back-environment
     volumes: *default-back-volumes
     networks:
